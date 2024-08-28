@@ -1,0 +1,36 @@
+.cart-container {
+  padding: 10px;
+}
+
+.cart-heading {
+  font-family: 'Roboto';
+  color: #ff6347;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.remove-all-btn {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: mediumblue;
+}
+
+.cart-items-list-container {
+  padding-left: 0px;
+}
